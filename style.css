@@ -1,6 +1,6 @@
 
 body {
-    background-color: #3d3d3d;
+    background-image: url("images/background.png");
 }
 
 nav {
@@ -26,7 +26,8 @@ h2 {
 }
 
 #photo {
-   display: flex-start; 
+    justify-content: space-around ;
+   display: flex; 
    padding: 5px;
 }
 
@@ -36,15 +37,43 @@ h2 {
     font-family: Helvetica;
     background-color: #4392e2;
     padding: 10px;
+    width: 45%;
     
 }
 
-.items:hover {
-    opacity: 0.4;
+.music {
+    font-family: Helvetica;
+    background-color: #e27543;
+    padding: 10px;
+    justify-content: space-between;
+    
 }
+
+
 
 .items {
     justify-content: space-evenly;
 }
 
+#ContactSocial {
+    flex-direction: column;
+    display: flex-end;
+    font-family: Helvetica;
+    background-color: #c5e243;
+    padding: 10px;
+    
+}
 
+#songs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Green {
+    display: flex;
+
+}
+
+.Blue {
+    display: flex;
+}
