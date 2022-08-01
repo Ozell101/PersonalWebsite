@@ -1,0 +1,50 @@
+
+body {
+    background-color: #3d3d3d;
+}
+
+nav {
+    background-color: #272D33;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+ 
+h1 {
+    font-family: Helvetica;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10;
+    background-color: aliceblue;
+}
+
+h2 {
+    font-family: Helvetica;
+    border: 3px solid black;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#photo {
+   display: flex-start; 
+   padding: 5px;
+}
+
+#about_me{
+    flex-direction: column;
+    display: flex-end;
+    font-family: Helvetica;
+    background-color: #4392e2;
+    padding: 10px;
+    
+}
+
+.items:hover {
+    opacity: 0.4;
+}
+
+.items {
+    justify-content: space-evenly;
+}
+
+
